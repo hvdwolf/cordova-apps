@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name=""theme-color" content="#2196f3">
+    <title>Pimatic</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.material.min.css">
+    <link rel="stylesheet" href="css/framework7.material.colors.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+  </head>
+  <body>
+<!--    <div class="statusbar-overlay"></div>
+    <div class="panel-overlay"></div>
+    <div class="panel panel-left panel-cover"> -->
+	<div class="navbar">
+          <div class="navbar-inner">           
+            <div class="center"><i class="f7-icons">info</i> Information</div>
+          </div>
+        </div>
+	<div class="content-block">
+	  <h2>How to use this App</h2>
+	  <p>Do whatever you like</p>
+	  <h2>About this App</h2>
+	  <p>This app is a free lightweight app to do whatever you like.</p>
+	  <p><i class="f7-icons">tags</i>0.0.1</p>
+	  <p><i class="f7-icons">email</i>H. van der Wolf</p>
+	</div>
+    </div> -->
+    <!-- end of left panel -->
+    <!-- Views-->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Pages container, because we use fixed navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-fixed">
+         <!-- <div data-page="panel-left" class="page"> -->
+          <!-- Page, "data-page" contains page name -->
+          <div data-page="index" class="page">
+ 
+            <!-- Top Navbar. In Material theme it should be inside of the page-->
+            <div class="navbar">
+              <div class="navbar-inner">
+		<div class="center">Pimatic</div>
+              </div>
+            </div>
+
+            <!-- Toolbar. In Material theme it should be inside of the page-->
+<!--            <div class="toolbar">
+              <div class="toolbar-inner">
+              </div>
+            </div> -->
+
+            <!-- Scrollable page content -->
+            <div class="page-content">
+              <div class="list-block">
+                <ul id="pimatic-pages">
+                  
+                </ul>
+              </div>
+              <div class="content-block">
+                <div class="row">
+                </div>
+              </div>
+            </div> <!-- inner divs starting from top navbar -->
+          </div> <!-- data-page div -->
+	 </div> <!-- panel-left -->
+      </div> <!-- classview view-main-->
+    </div> <!-- views -->
+    </div> <!-- statusbar-overlay -->
+
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+    <script type="text/javascript" src="js/socket.io.js"></script>
+    <script type="text/javascript" src="js/pimatic.js"></script>
+
+  </body>
+</html>

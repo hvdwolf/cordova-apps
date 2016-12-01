@@ -1,0 +1,11 @@
+.panel .list-block .item-link .item-inner {
+	color: #2196f3;
+}
+
+.panel .list-block ul {
+	background: transparent;
+}
+
+.label-switch {
+	float: right !important;
+}
