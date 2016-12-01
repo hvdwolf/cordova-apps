@@ -6,4 +6,5 @@ It is NOT an Android version of Pimatic.<br>
 <TABLE border="0">
 <TR><TD><a href="./img/pimatic-viewer.png"><img src="./img/pimatic-viewer.png" width="240" height="400" border="0"></a></TD><TD><a href="./img/add_system.png"><img src="./img/add_system.png" width="240" height="400" border="0"></a></TD><TD><a href="./img/about.png"><img src="./img/about.png" width="240" height="400" border="0"></a></TD></TR>
 </TABLE>
-Click images to enlarge.
+Click images to enlarge.<br><br>
+_Note: The first time on connect you have to provide a userid and password, and then nothing happens. Simply close and start again. The second and following times it will remember that userid/password._
