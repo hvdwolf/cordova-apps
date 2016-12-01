@@ -1,8 +1,8 @@
 //DEFINE THE CONNECTION
-var host = '192.168.144.128';
+var host = '192.168.xxx.yyy';
 var port = 80;
 var user = 'admin';
-var pass = 'duloupe63';
+var pass = 'PASSWORD';
 
 var socket = io.connect('http://'+host+':'+port+'?username='+user+'&password='+pass, {
   reconnection: true,
