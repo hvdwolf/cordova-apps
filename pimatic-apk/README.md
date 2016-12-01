@@ -22,6 +22,17 @@ So from inside this same pimatic-apk folder do:<br>
 Either "git clone" this repository or download the zip.
 Inside the repository or the zip file you will find the folder `pimatic-apk/www`.
 Copy this `www` folder and all its contents into the `pimatic-apk` folder/project you created above.
+To finalize your configuration you need to edit the `pimatic.js` file inside `pimatic-apk/www/js`.
+In the top you will find:
+```
+//DEFINE THE CONNECTION
+var host = '192.168.xxx.yyy';
+var port = 80;
+var user = 'admin';
+var pass = 'PASSWORD';
+```
+Change that to your specific configuration.
+
 When you have done that you can issue the command `cordova build` and your apk will be compiled/build.
 
 
